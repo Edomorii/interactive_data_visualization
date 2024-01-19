@@ -7,7 +7,7 @@ def interactive():
     nestle_data = pd.read_csv('NESN.SW.csv')
     
     nestle_data['Date'] = pd.to_datetime(nestle_data['Date'])
-    fig = px.line(nestle_data, x='Date', y='Adj Close', title='Nestlé S.A. Stock Price')
+    fig = px.line(nestle_data, x='', y='Adj Close', title='Nestlé S.A. Stock Price')
 
     fig.update_traces(mode='lines', hoverinfo='x+y')
 
