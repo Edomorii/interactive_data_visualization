@@ -1,3 +1,4 @@
+import streamlit as st
 import pandas as pd
 import plotly.express as px
 
@@ -25,6 +26,7 @@ def interactive():
         yaxis_ticks='outside' 
     )
 
-    fig.show()
+    st.plotly_chart(fig)
 
-interactive()
+if __name__ == "__main__":
+    interactive()
