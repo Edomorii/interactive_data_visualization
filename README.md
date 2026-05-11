@@ -96,6 +96,9 @@ Main datasets and sources include:
 
 The repository also includes an interactive financial visualization developed with Streamlit, allowing dynamic exploration of historical financial market data.
 
+Streamlit App:
+https://interactivedatavisualization-dfzadiqwvbxjve3r7emvkd.streamlit.app/
+
 ---
 
 ## Objective
